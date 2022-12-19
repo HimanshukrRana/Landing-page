@@ -4,7 +4,7 @@ import React from 'react'
 export default function Tutors() {
   return (
     <div className="tutors-conataimer font-mono smm:mb-[30px]">
-      <div className="wrapper flex  smm:flex-col lg:flex-row">
+      <div className="wrapper flex  smm:flex-col md:flex-row">
         <div className="tutors-content flex flex-col smm:p-8 lg:w-[70%] lg:p-[74px]">
           <h1 className="font-bold smm:text-2xl lg:w-[40%] lg:text-4xl">
             Get up and running fast together
@@ -35,7 +35,7 @@ export default function Tutors() {
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="m-auto flex">
           <div className="tutors-img relative smm:ml-[32px] lg:w-[30%]">
             <div className="black-rec  h-[359px] w-[308.93px] bg-black smm:h-[259px] "></div>
             <div className="yellow-rec absolute top-[14px] right-[148px] h-[417px] w-[262px] overflow-hidden rounded-xl bg-yellow font-normal smm:right-0 smm:left-[19px] smm:h-[317px] ">

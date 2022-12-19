@@ -16,7 +16,7 @@ export default function Header() {
                   width="32"
                   height="32"
                 />
-                <h4 className="p-2 font-bold lg:hidden">mancode.</h4>
+                <h4 className="p-2 text-xl font-bold lg:hidden">mancode.</h4>
               </div>
               <div>
                 <button
@@ -41,8 +41,8 @@ export default function Header() {
                     ></path>
                   </svg>
                 </button>
-                <div className="hidden w-full md:block md:w-auto lg:hidden" id="navbar-default">
-                  <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:text-sm md:font-medium md:dark:bg-gray-900">
+                <div className="hidden w-full md:block md:w-auto " id="navbar-default">
+                  <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:hidden md:flex-row md:space-x-8 md:border-0 md:bg-white md:text-sm md:font-medium md:dark:bg-gray-900">
                     <li>
                       <a
                         href="#"
@@ -83,21 +83,27 @@ export default function Header() {
             <div className="nav-menu ml-8 p-1 smm:hidden md:hidden lg:block">
               <ul className="text-1.5xl flex  gap-7">
                 <li>
-                  <a className="">Tutorials</a>
+                  <a href="#" className="hover:text-yellow">
+                    Tutorials
+                  </a>
                 </li>
                 <li>
-                  <a>Case Studies</a>
+                  <a href="#" className="hover:text-yellow">
+                    Case Studies
+                  </a>
                 </li>
                 <li>
-                  <a>Resources</a>
+                  <a href="#" className="hover:text-yellow">
+                    Resources
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="heading">
-            <div className=" flex w-full flex-col text-3xl  lg:text-5xl ">
+            <div className=" flex w-full flex-col text-3xl  md:text-[5rem] lg:text-5xl">
               <h1>Improve your skills</h1>
-              <div className="flex flex-row items-center text-3xl  lg:text-5xl">
+              <div className="flex flex-row items-center text-3xl  md:mt-[3rem] md:mb-[3rem] md:text-[5rem] lg:mt-0 lg:mb-0 lg:text-5xl">
                 <h1 className="mr-[15px]"> by </h1>
                 <Image
                   className="h-[29px] w-[29px] p-1"
@@ -113,13 +119,13 @@ export default function Header() {
           </div>
           <div className="desc">
             <Image src="/images/Group 2.png" alt="grp" width="83" height="75" />
-            <h4 className="smm:text-l lg:w-[70%] lg:text-2xl">
+            <h4 className="smm:text-l lg:w-[70%] lg:text-xl">
               Create, launch, and iterate on new marketing campaigns without distracting your
               product team.
             </h4>
           </div>
           <div className="header-btn">
-            <button className="btn-header flex gap-2 rounded-md bg-black p-5 text-white">
+            <button className="btn-header flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black">
               <span>
                 <h4>Get Started</h4>
               </span>
@@ -130,7 +136,13 @@ export default function Header() {
           </div>
         </div>
         <div className="header-Image relative  flex  bg-black md:w-full ">
-          <Image src="/images/test.svg" alt="Frame1" width="785" height="851" className="h-fit " />
+          <Image
+            src="/images/test.svg"
+            alt="Frame1"
+            width="785"
+            height="851"
+            className="m-auto h-fit"
+          />
         </div>
       </div>
     </div>

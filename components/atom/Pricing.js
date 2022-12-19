@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="pricing">
+    <div className="pricing smm:mt-[8rem] md:mt-0">
       {/* <header className="mx-auto flex max-w-6xl justify-between py-8 px-5 lg:px-8">
         <a href="#/" className="text-2xl font-semibold text-gray-900">
           price<span className="text-indigo-600">ly</span>
@@ -29,11 +29,9 @@ export default function Footer() {
           </ul>
         </nav>
       </header> */}
-      <main className="mx-auto max-w-6xl px-8 pt-10 pb-36">
-        <div className="mx-auto mb-14 max-w-md text-center">
-          <h1 className="mb-6 text-4xl font-semibold lg:text-5xl">
-            <span className="text-indigo-600">Choose your</span> package
-          </h1>
+      <main className="pb-26 mx-auto max-w-6xl px-8 pt-10">
+        <div className="mx-auto mb-14 text-center">
+          <h1 className="mb-6 text-4xl font-semibold lg:text-5xl">Choose your package</h1>
           <p className="text-xl font-medium text-gray-500">
             We provide various types of packages just for you
           </p>
@@ -78,7 +76,7 @@ export default function Footer() {
             </ul>
             <a
               href="#/"
-              className="flex items-center justify-center rounded-xl bg-indigo-600 py-5 px-4 text-center text-xl text-white"
+              className="flex items-center justify-center rounded-xl bg-indigo-600 py-5 px-4 text-center text-xl text-white  hover:border-2  hover:border-blue-700 hover:bg-white hover:text-blue-700"
             >
               Buy Now
               <img
@@ -90,19 +88,21 @@ export default function Footer() {
           </div>
 
           <div className="order-1 w-full flex-1 rounded-3xl bg-gray-900 p-8 text-gray-400 shadow-xl sm:w-96 lg:order-2 lg:mt-0 lg:w-full">
-            <div className="mb-8 flex items-center border-b border-gray-600 pb-8">
-              <img
+            <div className="mb-8 flex items-center justify-center border-b border-gray-600 pb-8">
+              {/* <img
                 src="https://res.cloudinary.com/williamsondesign/abstract-2.jpg"
                 alt=""
                 className="h-20 w-20 rounded-3xl"
-              />
-              <div className="ml-5">
-                <span className="block text-3xl font-semibold text-white">IT & SOFTWARE</span>
-                <span>
-                  <span className="align-top text-xl font-medium">$&thinsp;</span>
-                  <span className="text-3xl font-bold text-white">30 </span>
+              /> */}
+              <div className="ml-5 flex flex-col ">
+                <span className="text-3xl font-semibold text-white">IT & SOFTWARE</span>
+                <span className="">
+                  <span>
+                    <span className="align-top text-xl font-medium">$&thinsp;</span>
+                    <span className="text-3xl font-bold text-white">30 </span>
+                  </span>
+                  <span className="font-medium">/ user</span>
                 </span>
-                <span className="font-medium">/ user</span>
               </div>
             </div>
             <ul className="mb-10 text-xl font-medium">
@@ -139,12 +139,12 @@ export default function Footer() {
             </ul>
             <a
               href="#/"
-              className="flex items-center justify-center rounded-xl bg-indigo-600 py-6 px-4 text-center text-2xl text-white"
+              className="flex items-center justify-center rounded-xl bg-indigo-600 py-6 px-4 text-center text-2xl text-white  hover:border-2  hover:border-blue-700 hover:bg-white hover:text-blue-700"
             >
               Buy Now
               <img
                 src="https://res.cloudinary.com/williamsondesign/arrow-right.svg"
-                className="ml-2"
+                className="hover:blue-700  ml-2"
                 alt=""
               />
             </a>
@@ -188,7 +188,7 @@ export default function Footer() {
             </ul>
             <a
               href="#/"
-              className="flex items-center justify-center rounded-xl bg-indigo-600 py-5 px-4 text-center text-xl text-white"
+              className="flex items-center justify-center rounded-xl bg-indigo-600 py-5 px-4 text-center text-xl text-white  hover:border-2  hover:border-blue-700 hover:bg-white hover:text-blue-700"
             >
               Buy Now
               <img

@@ -6,7 +6,7 @@ export default function Hosting() {
     <div className=" p-8">
       <div className="flex smm:flex-col lg:flex-row">
         <div className="img">
-          <Image src="/images/Frame c.png" alt="" width="700" height="500" />
+          <Image src="/images/Frame c.png" alt="" width="700" height="500" className="m-auto" />
         </div>
         <div className="img-text p-[1.5rem] ">
           <h1 className=" py-5 text-5xl font-bold">The language for building web pages</h1>
@@ -14,7 +14,7 @@ export default function Hosting() {
             Go live on a fast, reliable, and hassle-free hosting network that scales with your
             business with one click and go code!
           </p>
-          <button className="btn-header  flex gap-2 rounded-md bg-black p-5 text-white">
+          <button className="btn-header  flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black">
             <span>
               <h4>Try it Yourself</h4>
             </span>

@@ -45,7 +45,7 @@ const Pricing = () => {
 
                 <a href="#" className="">
                   <p className="mt-8 w-full rounded-xl bg-black py-4 text-white">
-                    <span className="font-medium">Buy Now</span>
+                    <span className="font-medium ">Buy Now</span>
                     {/* <span className="material-icons pl-2 align-middle text-sm">east</span> */}
                   </p>
                 </a>
@@ -91,7 +91,7 @@ const Pricing = () => {
                 </p>
 
                 <a href="#" className="">
-                  <p className="mt-8 w-full rounded-xl bg-black py-4 text-white">
+                  <p className="mt-8 w-full rounded-xl bg-black py-4 text-white hover:bg-white hover:text-blue-700">
                     <span className="font-medium">Buy Now</span>
                     {/* <span className="material-icons pl-2 align-middle text-sm">east</span> */}
                   </p>
