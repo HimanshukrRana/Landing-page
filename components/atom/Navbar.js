@@ -27,6 +27,11 @@ export default function Navbar() {
                 Resources
               </a>
             </li>
+            <li>
+              <a href="/Contact" className="hover:text-yellow smm:hidden xl:block">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -5,9 +5,9 @@ export default function Card() {
   return (
     <div>
       <div className="class ">
-        <div className="max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-800">
-          <div className="pb-[78px]">
-            <img src="/images/Vector2.png" alt="" />
+        <div className="max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow-md  dark:border-gray-700 dark:bg-gray-800">
+          <div className="pb-[78px] ">
+            <img src="/images/Vector2.png" alt="" className="" />
           </div>
 
           <a>
@@ -15,7 +15,7 @@ export default function Card() {
               Easy Access
             </h5>
           </a>
-          <p className="font-mono mb-3 text-gray-500 dark:text-gray-400">
+          <p className="font-mono mb-3 text-gray-500  hover:text-yellow">
             Connect your marketing tools with built-in integrations
           </p>
         </div>

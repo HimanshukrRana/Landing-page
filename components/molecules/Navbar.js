@@ -13,7 +13,7 @@ export default function Navbar({ fixed }) {
               <Image
                 src="/images/Component 3.png"
                 alt="logo"
-                className="logo"
+                className="logo h-[32px] w-[32px]"
                 width="32"
                 height="32"
               />
@@ -22,7 +22,7 @@ export default function Navbar({ fixed }) {
               </span>
             </a>
             <button
-              className="block cursor-pointer rounded border border-solid   px-3 py-1 text-xl leading-none text-black outline-none focus:outline-none md:hidden"
+              className="absolute top-0 right-0 cursor-pointer rounded border border-solid   px-3 py-1 text-xl leading-none text-black outline-none focus:outline-none md:hidden"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >

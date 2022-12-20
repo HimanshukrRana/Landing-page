@@ -42,7 +42,9 @@ export default function Header() {
           <div className="header-btn">
             <button className="btn-header flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black">
               <span>
-                <h4>Get Started</h4>
+                <h4>
+                  <a href="/Contact">Get Started</a>
+                </h4>
               </span>
               <span className="">
                 <Image src="/images/Vector-btn.png" alt="btn" width="22" height="18" />
@@ -50,7 +52,7 @@ export default function Header() {
             </button>
           </div>
         </div>
-        <div className="header-Image relative  flex  bg-black md:w-full ">
+        <div className="header-Image relative  flex  bg-black md:w-full  ">
           <Image
             src="/images/test.svg"
             alt="Frame1"
