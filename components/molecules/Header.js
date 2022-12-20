@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 // import Mobile_nav from '../atom/Mobile_nav'
@@ -43,7 +44,7 @@ export default function Header() {
             <button className="btn-header flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black">
               <span>
                 <h4>
-                  <a href="/Contact">Get Started</a>
+                  <Link href="/Contact">Get Started</Link>
                 </h4>
               </span>
               <span className="">

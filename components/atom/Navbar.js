@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
@@ -28,9 +29,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/Contact" className="hover:text-yellow smm:hidden xl:block">
+              <Link href="/Contact" className="hover:text-yellow smm:hidden xl:block">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
