@@ -78,22 +78,41 @@ export default function Faqs() {
                   02. How to share feature demos and ideas?
                 </h1>
 
-                <span className="close-treact-popup rounded-full bg-blue-500 text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                    />
-                  </svg>
-                </span>
+                {expand ? (
+                  <span className="close-treact-popup rounded-full bg-gray-200 text-gray-400">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  </span>
+                ) : (
+                  <span className="close-treact-popup rounded-full bg-blue-500 text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      />
+                    </svg>
+                  </span>
+                )}
               </button>
               <hr className="border-gray-200 dark:border-gray-700" />
 
@@ -115,22 +134,41 @@ export default function Faqs() {
                   03. Do i need a referral?
                 </h1>
 
-                <span className="close-treact-popup rounded-full bg-blue-500 text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                    />
-                  </svg>
-                </span>
+                {expand ? (
+                  <span className="close-treact-popup rounded-full bg-gray-200 text-gray-400">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  </span>
+                ) : (
+                  <span className="close-treact-popup rounded-full bg-blue-500 text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      />
+                    </svg>
+                  </span>
+                )}
               </button>
               <hr className="border-gray-200 dark:border-gray-700" />
 
@@ -152,22 +190,41 @@ export default function Faqs() {
                   04. How to get insights from users?
                 </h1>
 
-                <span className="close-treact-popup rounded-full bg-blue-500 text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                    />
-                  </svg>
-                </span>
+                {expand ? (
+                  <span className="close-treact-popup rounded-full bg-gray-200 text-gray-400">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  </span>
+                ) : (
+                  <span className="close-treact-popup rounded-full bg-blue-500 text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      />
+                    </svg>
+                  </span>
+                )}
               </button>
               <hr className="border-gray-200 dark:border-gray-700" />
 
@@ -189,22 +246,41 @@ export default function Faqs() {
                   05. Can I develop my website without code?
                 </h1>
 
-                <span className="close-treact-popup rounded-full bg-blue-500 text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                    />
-                  </svg>
-                </span>
+                {expand ? (
+                  <span className="close-treact-popup rounded-full bg-gray-200 text-gray-400">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  </span>
+                ) : (
+                  <span className="close-treact-popup rounded-full bg-blue-500 text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      />
+                    </svg>
+                  </span>
+                )}
               </button>
               <hr className="border-gray-200 dark:border-gray-700" />
 
@@ -222,3 +298,32 @@ export default function Faqs() {
     </div>
   )
 }
+
+// write code for accordian in react.js?
+// const Accordion = ({ list, icon}) => {
+//   const [isActivePanel, setActivePanel] = useState({});
+//   const toggleItem = index => {
+//     setActivePanel(prevState => ({...prevState, [index]: !Boolean(prevState[index])}));
+//   };
+//   return (
+//     <Wrapper>
+//       {list.map((item, index) => {
+//         const checkOpen = isActivePanel[index];
+
+//         return (
+//           <Container key={index}>
+//             <Header
+//               title={item.title}
+//               icon={icon}
+//               id={index}
+//               onClick={toggleItem}
+//             />
+//             <Body isOpen={checkOpen}>
+//               <Collapse isOpen={checkOpen}>{item.content}</Collapse>
+//             </Body>
+//           </Container>
+//         );
+//       })}
+//     </Wrapper>
+//   );
+// };
