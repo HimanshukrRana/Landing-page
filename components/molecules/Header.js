@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-import Mobile_nav from '../atom/Mobile_nav'
-import Nav from '../atom/Nav'
+// import Mobile_nav from '../atom/Mobile_nav'
+// import Nav from '../atom/Nav'
 import Navbar from '../atom/Navbar'
+import Navbar2 from '../molecules/Navbar'
 
 export default function Header() {
   return (
@@ -12,7 +13,8 @@ export default function Header() {
         <div className="header-content pr-7.5 lg: flex flex-col gap-[4rem] bg-grey p-6 md:w-full  lg:p-[6rem]">
           <Navbar />
           {/* <Mobile_nav /> */}
-          <Nav />
+          {/* <Nav /> */}
+          <Navbar2 />
           <div className="heading">
             <div className=" flex w-full flex-col text-3xl  md:text-[5rem] lg:text-5xl">
               <h1>Improve your skills</h1>
