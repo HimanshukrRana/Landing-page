@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 // import Mobile_nav from '../atom/Mobile_nav'
@@ -8,6 +9,7 @@ import Navbar from '../atom/Navbar'
 import Navbar2 from '../molecules/Navbar'
 
 export default function Header() {
+  const router = useRouter()
   return (
     <div className="header-container font-mono block h-full w-full">
       <div className="header flex flex-col lg:flex-row  ">
@@ -41,10 +43,14 @@ export default function Header() {
             </h4>
           </div>
           <div className="header-btn">
-            <button className="btn-header flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black">
+            <button
+              className="btn-header flex gap-2 rounded-md bg-black p-5 text-white hover:border-2 hover:border-black hover:bg-white hover:text-black"
+              onClick={() => router.push('/contact')}
+            >
               <span>
                 <h4>
-                  <Link href="/Contact">Get Started</Link>
+                  Get Started
+                  {/* <Link href="/contact">Get Started</Link> */}
                 </h4>
               </span>
               <span className="">

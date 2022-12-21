@@ -29,7 +29,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <Link href="/Contact" className="hover:text-yellow smm:hidden xl:block">
+              <Link href="/contact" className="hover:text-yellow smm:hidden xl:block">
                 Contact
               </Link>
             </li>
