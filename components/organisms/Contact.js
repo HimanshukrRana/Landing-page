@@ -12,6 +12,7 @@ const initialValues = {
   zip_code: '',
   password: '',
   confirm_password: '',
+  checkbox: 'false',
 }
 export default function Contact() {
   const { values, errors, touched, handleBlur, handleSubmit, handleChange } = useFormik({
@@ -218,9 +219,11 @@ export default function Contact() {
             <input
               id="remember"
               type="checkbox"
-              value=""
+              name="checkbox"
               className="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
-              required
+              value={values.checkbox}
+              onChange={handleChange}
+              onBlur={handleBlur}
             />
           </div>
           <label
@@ -233,7 +236,11 @@ export default function Contact() {
             </a>
             .
           </label>
+          {errors.checkbox && touched.checkbox ? (
+            <p className="font-mono text-red-500">{errors.checkbox}</p>
+          ) : null}
         </div>
+
         <button
           type="submit"
           className="w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 sm:w-auto"

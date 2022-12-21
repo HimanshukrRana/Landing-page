@@ -9,6 +9,7 @@ export const signUpSchema = Yup.object({
   zip_code: Yup.string().min(6).max(10).required('Please enter your Zip Code'),
   password: Yup.string().min(4).max(20).required('Please enter your Password'),
   confirm_password: Yup.string()
-    .required()
+    .required('Please confirm your Password')
     .oneOf([Yup.ref('password'), null], 'Password must match'),
+  checkbox: Yup.bool().oneOf([true], 'You need to accept the terms and conditions'),
 })
